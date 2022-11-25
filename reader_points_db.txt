@@ -1,0 +1,62 @@
+http://localhost:9053/api/v1/buyPayload  Post save purchased book
+
+
+{
+     "readername":"priya",
+  "readermail":"raja@cts.com",
+"bookid":2,
+"purchaseDate":"2022-10-13",
+"paymentid": 1
+}
+
+
+{
+    "id": 3,
+    "bookid": 2,
+    "readername": "priya",
+    "readermail": "raja@cts.com",
+    "paymentid": 1,
+    "purchaseDate": "2022-10-13T00:00:00.000+00:00"
+}
+
+
+
+
+
+	http://localhost:9053/api/v1/searchbook
+    searching all book by reader using REST TEMPLATE
+    
+    
+    http://localhost:9053/api/v1/purchasedBooks
+    reader purchased all books 
+    
+
+    http://localhost:9053/api/v1/purchasedBooksval/2
+	reader can search book by specific book from purchased book
+	
+	
+	Reader search all purchased book by fields
+
+http://localhost:9053/api/v1/makeAction?id=1&readername=kumar&readermail=demo@cts.com
+
+
+Reader able to read purchased book and book info
+
+http://localhost:9053/api/v1/purchasedBooksvalAPi/1
+
+
+book by search by author
+
+http://localhost:9052/api/v1/searchbook?category=Action121&author=Rani&price=400&publisher=Ranicomics
+
+book by search by reader
+
+http://localhost:9053/api/v1/searchbook1?category=Action121&author=Rani&price=400&publisher=Ranicomics
+http://localhost:9053/api/v1/searchbook1?category=Action121&author=Rani&price=400&publisher=Ranicomics
+
+
+https://github.com/nakeshsingh/microservices
+
+https://www.bezkoder.com/angular-14-jwt-auth/
+    
+    

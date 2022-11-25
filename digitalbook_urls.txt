@@ -1,0 +1,107 @@
+---book
+
+
+http://localhost:9052/swagger-ui/index.html
+http://localhost:9052/v3/api-docs
+
+
+------- author
+
+http://localhost:9051/v3/api-docs  
+http://localhost:9051/swagger-ui/index.html
+
+
+-------reader
+
+http://localhost:9053/swagger-ui/index.html#/
+http://localhost:9053/v3/api-docs  
+http://localhost:9053/api/v1/searchbook
+
+
+http://localhost:9053/api/v1/buyPayload POST
+{
+     "readername":"kumar",
+  "readermail":"demo@cts.com",
+"bookid":5
+}
+
+http://localhost:9053/api/v1/purchasedBooks  GET
+
+
+http://localhost:9053/api/v1/searchbook/data
+http://localhost:9053/api/v1/searchbook/
+
+Hibernate: select book0_.id as id1_0_0_, book0_.active_status as active_s2_0_0_, book0_.auhtor as auhtor3_0_0_,
+ book0_.auhtorid as auhtorid4_0_0_, book0_.category as category5_0_0_, book0_.chapter as chapter6_0_0_, book0_.image as image7_0_0_,
+ book0_.price as price8_0_0_, book0_.published_date as publishe9_0_0_, book0_.publisher as publish10_0_0_, 
+ book0_.title as title11_0_0_ from book book0_ where book0_.id=?
+
+
+-----eureka
+
+http://localhost:8762/
+
+
+api gateway
+
+
+
+
+books
+
+
+kafka
+
+
+http://localhost:9054/add-user post
+
+{
+     "name":"priya",
+  "email":"demo@cts.com",
+"phoneNumber":1234567890
+}
+
+op: Added Usercom.example.Kafka.Model.User@3f6419cc
+
+
+https://github.com/santhoshkumarbollena/Student_Management_Portal/blob/master/DbmsConnectionForStudentManagement/src/main/java/com/example/demo/Controller/EmailNotificationClass.java
+
+
+https://www.javainuse.com/spring/boot-jwt-mysql
+
+
+https://www.javainuse.com/spring/boot_swaggersec
+
+
+
+
+Reader search all purchased book by fields
+
+http://localhost:9053/api/v1/makeAction?id=1&readername=kumar&readermail=demo@cts.com
+
+
+Reader able to read purchased book and book info
+
+http://localhost:9053/api/v1/purchasedBooksvalAPi/1
+
+
+book by search by author
+
+http://localhost:9052/api/v1/searchbook?category=Action121&author=Rani&price=400&publisher=Ranicomics
+
+book by search by reader
+
+http://localhost:9053/api/v1/searchbook1?category=Action121&author=Rani&price=400&publisher=Ranicomics
+http://localhost:9053/api/v1/searchbook1?category=Action121&author=Rani&price=400&publisher=Ranicomics
+
+
+https://github.com/nakeshsingh/microservices
+
+https://www.bezkoder.com/angular-14-jwt-auth/
+
+
+aws
+
+BchxSiTdh4rw0eyLmTKv
+myapp.c0uzedn1gnxi.ap-northeast-1.rds.amazonaws.com
+

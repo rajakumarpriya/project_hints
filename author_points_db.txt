@@ -1,0 +1,125 @@
+http://localhost:9022/addAuthor post
+
+{
+     "username":"raja",
+  "passwrod":"demo@123",
+"role":"admin"
+}
+
+{
+     "username":"kumar",
+  "passwrod":"demo@123",
+"role":"admin"
+}
+
+http://localhost:9022/update --put
+
+http://localhost:9022/authors - get
+
+http://localhost:9022/authorById/1
+
+http://localhost:9022/author/kumar
+Bearer 
+Bearer 
+eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0xMVQyMDowMDo0Ny4yMzc1MTk0MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NTUxNjY0NywiaWF0IjoxNjY1NDk4NjQ3fQ.flR63sItLxp5gDnPDRZ6JfMqwBV1Td5_ynSB1r6WksaDJYWIqkw4rVvMH--3-7bPQ3leCr2-bJlO8dDo3AJn
+eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0xMVQyMDowMDo0Ny4yMzc1MTk0MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NTUxNjY0NywiaWF0IjoxNjY1NDk4NjQ3fQ.flR63sItLxp5gDnPDRZ6JfMqwBV1Td5_ynSB1r6WksaDJYWIqkw4rVvMH--3-7bPQ3leCr2-bJlO8dDo3AJn
+jwtToken
+
+JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+http://localhost:9022/authenticate   post
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0wNVQwODozMjozNy4wODcyMjU2MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NDk1Njk1NywiaWF0IjoxNjY0OTM4OTU3fQ.OJoC6Ns2cU75aj9JFqEP1Xcn0upnESmYtZXLK8ETJ9FAeCnjn8l_gUl0v4PNbABNUdkB247aN4qpkGfVBCpD8Q"
+}
+
+http://localhost:9022/authors -get headers 
+Authorization --Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0wNVQwODozMjozNy4wODcyMjU2MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NDk1Njk1NywiaWF0IjoxNjY0OTM4OTU3fQ.OJoC6Ns2cU75aj9JFqEP1Xcn0upnESmYtZXLK8ETJ9FAeCnjn8l_gUl0v4PNbABNUdkB247aN4qpkGfVBCpD8Q
+
+
+
+
+
+
+
+
+
+
+
+
+http://localhost:9055/api/auth/signup post
+http://localhost:9055/api/auth/signup
+
+
+{
+    "username":"rajakumar",
+    "password":"1234567",
+    "email":"rajakumar@cts.com",
+    "role":["admin"]
+}
+
+
+{
+    "message": "User registered successfully!"
+}
+
+
+http://localhost:9055/api/test/user  get
+
+{"path":"/api/test/user","error":"Unauthorized","message":"Full authentication is required to access this resource","status":401}
+
+
+
+http://localhost:9055/api/auth/signin post
+
+cookies - token create
+
+ip
+
+{
+    "username":"rajakumar",
+    "password":"1234567"
+}
+
+
+op
+{
+    "id": 1,
+    "username": "rajakumar",
+    "email": "rajakumar@cts.com",
+    "roles": [
+        "ROLE_ADMIN"
+    ]
+}
+
+op- session
+eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyYWpha3VtYXIiLCJpYXQiOjE2NjU1MzU3ODcsImV4cCI6MTY2NTYyMjE4N30.s0OQe4Rb1Bw4nrEXYmCqFkgn0gMlJWs8JdUsNI5W7346Wa2l13pI7nJVNmYb65AeCAe5c1dQAidZaulSwRE54w
+
+
+http://localhost:9055/api/test/user - get only postman run 
+
+cookies - token showing
+
+User Content.
+
+
+
+http://localhost:9055/api/auth/signout POST
+cookies - token hide
+
+
+{
+    "message": "You've been signed out!"
+}
+
+
+
+
+
+
+
+#Swagger doc
+http://localhost:8080/v2/api-docs
+http://localhost:8080/swagger-ui.html //getting unauthorised exception
+
+
+@RequestMapping("/api/v1/digitalbooks/author/")
+

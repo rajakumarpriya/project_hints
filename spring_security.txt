@@ -1,0 +1,36 @@
+http://localhost:9050/authenticate --post()generating token
+
+{
+    "username":"demo",
+    "password":"demo@123"
+}
+
+raw - json type
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0wMlQyMjozNjoyOC42NzQ1MTkiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NDc0ODM4OCwiaWF0IjoxNjY0NzMwMzg4fQ.sXRjUFhwYkToGmunxgRiXaSy2BBXQbV5aN163xGndDgpnHXVZ5TXuZt36tmqVllO3kYa4TFjYnISz4UCoM8CAQ"
+}
+Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0wMlQyMjozNjoyOC42NzQ1MTkiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NDc0ODM4OCwiaWF0IjoxNjY0NzMwMzg4fQ.sXRjUFhwYkToGmunxgRiXaSy2BBXQbV5aN163xGndDgpnHXVZ5TXuZt36tmqVllO3kYa4TFjYnISz4UCoM8CAQrequestTokenHeader
+	   eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0wMlQyMjozNjoyOC42NzQ1MTkiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NDc0ODM4OCwiaWF0IjoxNjY0NzMwMzg4fQ.sXRjUFhwYkToGmunxgRiXaSy2BBXQbV5aN163xGndDgpnHXVZ5TXuZt36tmqVllO3kYa4TFjYnISz4UCoM8CAQ
+
+
+eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0wMlQyMjoxMzoyOC42NjUwNjg5MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NDgwODIwOCwiaWF0IjoxNjY0NzI5MDA4fQ.uW8ZdlJYutsWnFJG5TaAxT80nguinFsIODI1O8-2i8roEDiX-NG2clTu5DMr23LM4Ru9VOsDFDobbr6Dm4JObQ
+
+
+-------------------------
+http://localhost:9050/dbook/greet   get  (validating token)
+
+
+header-- authorization
+
+Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMi0xMC0wMlQyMjoxMzoyOC42NjUwNjg5MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIxIiwibWVzc2FnZSI6InNvbWUgdG9rZW4gbmV3Y3JlYXRlZCIsImV4cCI6MTY2NDgwODIwOCwiaWF0IjoxNjY0NzI5MDA4fQ.uW8ZdlJYutsWnFJG5TaAxT80nguinFsIODI1O8-2i8roEDiX-NG2clTu5DMr23LM4Ru9VOsDFDobbr6Dm4JObQ
+
+Hello user
+----------------------
+
+http://localhost:9050/dbook/greet/priya
+
+Welcome PRIYA without thymeleaf
+
+
+C:\Users\cogjava3237>git --version                                                                                      git version 2.33.1.windows.1  

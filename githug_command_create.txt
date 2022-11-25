@@ -1,0 +1,228 @@
+
+
+git remote set-url origin https://github.com/rajakumarpriya/author_reader_book_service
+BchxSiTdh4rw0eyLmTKv
+myapp.c0uzedn1gnxi.ap-northeast-1.rds.amazonaws.com
+
+D:\RAJAKUMAR\projects\author_service>git init   
+
+
+D:\RAJAKUMAR\projects\author_service>git add .  
+ 
+D:\RAJAKUMAR\projects\author_service>git add -A 
+
+
+D:\RAJAKUMAR\projects\spring-boot-crud-example-master>git commit -m "First commit github"       
+
+
+
+git branch -M main 
+
+
+D:\RAJAKUMAR\projects\spring-boot-crud-example-master>git remote add origin https://github.com/rajakumarpriya/author_service_microservices.git    
+
+error came before line use next otherwise leave
+git remote add origin https://github.com/rajakumarpriya/author_service_jars.git
+git remote set-url origin https://github.com/rajakumarpriya/author_service_jars.git
+git remote set-url origin https://github.com/rajakumarpriya/author_service_jars_3
+git remote set-url origin https://github.com/rajakumarpriya/vlabs_cts.git
+git remote set-url origin https://github.com/Manigandan-devlopment/digitalbook.git
+git remote set-url origin https://github.com/rajakumarpriya/author_service_microservices1.git 
+D:\RAJAKUMAR\projects\spring-boot-crud-example-master>git remote set-url origin https://github.com/rajakumarpriya/author_service_microservices.git  
+
+
+RAJAKUMAR\projects\spring-boot-crud-example-master>git push -u origin main  
+
+
+main ---  git push origin master --force
+https://github.com/Manigandan-devlopment/digitalbook.git
+
+git remote set-url origin https://github.com/career_karma_tutorials/git_tutorials
+git remote set-url origin https://github.com/rajakumarpriya/spring-boot-crud-example-master
+
+wget https://github.com/rajakumarpriya/author_service_microservices/blob/master/digitalbook-author-0.0.1-SNAPSHOT.jar
+$ ssh -i "digital_books.pem" ec2-user@ec2-35-78-238-83.ap-northeast-1.compute.amazonaws.com
+java -jar https://github.com/rajakumarpriya/author_service_microservices/blob/master/digitalbook-author-0.0.1-SNAPSHOT.jar
+
+https://github.com/rajakumarpriya/author_service_jars/blob/main/1/digitalbook-app.zip
+
+https://github.com/rajakumarpriya/author_service_jars/raw/main/1/AuthorService-0.0.1-SNAPSHOT.jar
+
+$ jar xfv digitalbook-app.zip
+7z x digitalbook-app.zip
+
+server.port=9010
+
+spring.application.name=gate
+
+eureka.client.serviceUrl.defaultZone= http://localhost:8762/eureka
+
+
+#	localhost:9000/shows/v1/**
+
+# OUR-SHOW -> /shows/v1**
+spring.cloud.gateway.routes[0].uri=lb://OUR-SHOW/
+spring.cloud.gateway.routes[0].predicates[0]=Path=/shows/v1/**
+
+
+#spring.cloud.gateway.routes[1].uri=lb://heors-service/
+#spring.cloud.gateway.routes[1].predicates[0]=Path=/heros/**
+
+
+
+server.port=8762
+
+eureka.client.registerWithEureka= false
+eureka.client.fetchRegistry= false
+
+eureka.client.serviceUrl.defaultZone= http://localhost:8762/eureka
+
+
+
+
+
+
+
+
+git hub commans latest
+
+
+Microsoft Windows [Version 10.0.19043.1526]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git init
+Initialized empty Git repository in D:/RAJAKUMAR/Customer_service_portal/request_service_backup/.git/
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .mvn/
+        mvnw
+        mvnw.cmd
+        pom.xml
+        req.http
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in req.http.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/request/services/CustomerRequest.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/request/services/controllers/CustomerRequestController.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/request/services/entities/CustomerRequest.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/request/services/repositories/CustomerRequestRepository.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/request/services/services/CustomerRequsetService.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/application.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/request/services/CustomerRequestTests.java.The file will have its original line endings in your working directory
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   .mvn/wrapper/maven-wrapper.jar
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   req.http
+        new file:   src/main/java/com/request/services/CustomerRequest.java
+        new file:   src/main/java/com/request/services/controllers/CustomerRequestController.java    
+        new file:   src/main/java/com/request/services/entities/CustomerRequest.java
+        new file:   src/main/java/com/request/services/repositories/CustomerRequestRepository.java   
+        new file:   src/main/java/com/request/services/services/CustomerRequsetService.java
+        new file:   src/main/resources/application.properties
+        new file:   src/main/resources/application.yml
+        new file:   src/test/java/com/request/services/CustomerRequestTests.java
+
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git commit -m "customer submit" 
+[master (root-commit) 4a54fba] customer submit
+ Committer: unknown <cogjava3237@iiht.tech>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 926 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.jar
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 req.http
+ create mode 100644 src/main/java/com/request/services/CustomerRequest.java
+ create mode 100644 src/main/java/com/request/services/controllers/CustomerRequestController.java    
+ create mode 100644 src/main/java/com/request/services/entities/CustomerRequest.java
+ create mode 100644 src/main/java/com/request/services/repositories/CustomerRequestRepository.java   
+ create mode 100644 src/main/java/com/request/services/services/CustomerRequsetService.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/main/resources/application.yml
+ create mode 100644 src/test/java/com/request/services/CustomerRequestTests.java
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git branch -M main
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git remote add origin https://github.com/rajakumarpriya/portal_customer.git
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>git push -u origin main
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (35/35), 62.36 KiB | 5.67 MiB/s, done.
+Total 35 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rajakumarpriya/portal_customer.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+D:\RAJAKUMAR\Customer_service_portal\request_service_backup>^A
